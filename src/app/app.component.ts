@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'chande-detection';
+  contador=0
+  constructor() { }
+
+ 
+ 
+  
+  ngDoCheck(): void {
+    this.contador++;
+    console.log(`ngDoCheck se ha ejecutado app component ${this.contador}`);
+  }
 }

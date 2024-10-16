@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+.borde-activo {
+    border: 2px solid yellow; 
+  }
+  
+  .borde-inactivo {
+    border: 2px solid black;
+  }
+  
