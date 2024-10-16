@@ -1,9 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-padre-rama-izquierda',
   templateUrl: './padre-rama-izquierda.component.html',
-  styleUrls: ['./padre-rama-izquierda.component.css']
+  styleUrls: ['./padre-rama-izquierda.component.css'],
+  changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class PadreRamaIzquierdaComponent implements OnInit {
   contador=0

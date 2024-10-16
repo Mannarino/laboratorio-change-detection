@@ -6,12 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hijouno-rama-izquierda.component.css']
 })
 export class HijounoRamaIzquierdaComponent implements OnInit {
-
+  mensajeTimeout= false
   constructor() { }
-
+  
   ngOnInit(): void {
     setTimeout(() => {
-      console.log('time out')
+      this.mensajeTimeout = true
+      console.log('desde hijo uno rama izquierda time out')
     }, 4000);
   }
  

@@ -12,7 +12,9 @@ export class PepaComponent implements OnInit {
   ngOnInit(): void {
   }
  
- 
+  hola(){
+    console.log('hola')
+  }
     
   ngDoCheck(): void { 
       this.contador++;
