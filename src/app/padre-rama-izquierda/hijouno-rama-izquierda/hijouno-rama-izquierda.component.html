@@ -1,5 +1,14 @@
 <p>hijouno-rama-izquierda works!</p>
-<p>ngDoCheck se ha ejecutado {{contador}} veces</p>
+<span class="badge text-bg-primary">default</span>
+<div class="alert alert-info" role="alert">
+    tiene time out sse corre en 4 segundos
+    
+  </div>
+  
+  <div class="alert alert-danger" role="alert">
+     tambien hay un setinterval , esta afuera del ng zone
+    </div>
+<p>ngDoCheck se ha ejecutado <span class="badge text-bg-danger">{{contador}}</span> veces</p>
 <p *ngIf="mensajeTimeout">time out ejecutado</p>
 <div class="container">
     <app-nieto class="hijo"></app-nieto>

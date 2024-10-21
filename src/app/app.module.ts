@@ -12,6 +12,12 @@ import { TitoComponent } from './padre-rama-derecha/tito/tito.component';
 import { MariaComponent } from './padre-rama-derecha/maria/maria.component';
 import { PepaComponent } from './padre-rama-derecha/pepa/pepa.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PadreRamatreComponent } from './padre-ramatre/padre-ramatre.component';
+import { LoginComponent } from './padre-ramatre/login/login.component';
+import { DetalisComponent } from './padre-ramatre/detalis/detalis.component';
+
+import { PadreRamacuatroComponent } from './padre-ramacuatro/padre-ramacuatro.component';
+import { HijoDecuatroComponent } from './padre-ramacuatro/hijo-decuatro/hijo-decuatro.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +29,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     NietoComponent,
     TitoComponent,
     MariaComponent,
-    PepaComponent
+    PepaComponent,
+    PadreRamatreComponent,
+    LoginComponent,
+    DetalisComponent,
+    PadreRamacuatroComponent,
+    HijoDecuatroComponent
   ],
   imports: [
     BrowserModule,

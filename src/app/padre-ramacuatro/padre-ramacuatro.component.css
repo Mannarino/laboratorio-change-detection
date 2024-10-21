@@ -1,8 +1,7 @@
 .container {
     display: flex;
-    justify-content: space-evenly; /* Espacio entre los hijos */
+    justify-content: space-between; /* Espacio entre los hijos */
     gap: 20px; /* Espacio entre los componentes */
-    width: 100%;
   }
   
   .hijo {
@@ -11,4 +10,3 @@
     padding: 10px; /* Espacio interno en cada hijo */
     box-sizing: border-box; /* Incluir el padding y el borde en el ancho */
   }
-  
